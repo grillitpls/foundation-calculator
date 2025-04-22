@@ -760,8 +760,8 @@
 
     // Op button
   btnPlus.addEventListener("click", () => {
-    // toggle switch, appearing of this can make other place's switch can be delete
-    isA === true ? isA = false : isA = true
+    // change switch
+    isA = false 
 
     // click this op button with isNaN(b) === false in the middle meaning make the calculator with the previous op
     if (btnMinus.style.backgroundColor === 'orange' && b !== NaN) {
@@ -904,8 +904,8 @@
   })
 
   btnMinus.addEventListener("click", () => {
-    // toggle switch, appearing of this can make other place's switch can be delete
-    isA === true ? isA = false : isA = true
+    // change switch
+    isA = false
 
     // click this op button with isNaN(b) === false in the middle meaning make the calculator with the previous op
     if (btnPlus.style.backgroundColor === 'orange' && isNaN(b) === false) {
@@ -1051,8 +1051,8 @@
   })
 
   btnMultiply.addEventListener("click", () => {
-    // toggle switch, appearing of this can make other place's switch can be delete
-    isA === true ? isA = false : isA = true
+    // change switch
+    isA = false
 
     // click this op button with isNaN(b) === false in the middle meaning make the calculator with the previous op
     if (btnPlus.style.backgroundColor === 'orange' && isNaN(b) === false) {
@@ -1196,8 +1196,8 @@
   })
 
   btnDivide.addEventListener("click", () => {
-    // toggle switch, appearing of this can make other place's switch can be delete
-    isA === true ? isA = false : isA = true
+    // change switch
+    isA = false
 
     // (user try to divide by 0 and else)
     if (b === 0) {
